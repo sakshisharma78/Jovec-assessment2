@@ -1,0 +1,47 @@
+/* src/components/Sidebar.css */
+.left-sidebar {
+    width: 250px;
+    background-color: #2e6171;
+    /* Adjust this color to match the screenshot */
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    color: white;
+    /* Ensure the text color contrasts with the background */
+}
+
+.left-sidebar h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    /* Ensure the text color contrasts with the background */
+}
+
+.left-sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.left-sidebar ul li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: white;
+    /* Ensure the text color contrasts with the background */
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    /* Add this line to separate each item with a white line */
+}
+
+.left-sidebar ul li:hover {
+    background-color: #3a7a89;
+    /* Adjust hover color if needed */
+    border-radius: 4px;
+    padding-left: 0.5rem;
+}

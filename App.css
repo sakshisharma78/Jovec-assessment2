@@ -1,0 +1,22 @@
+/* src/App.css */
+.app {
+  display: flex;
+}
+
+.main-content-wrapper {
+  margin-left: 250px;
+  /* Width of the sidebar */
+  width: calc(100% - 250px);
+  /* Adjust the width to account for the sidebar */
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+}
+
+.main-section {
+  padding: 1rem;
+  flex-grow: 1;
+}

@@ -1,0 +1,44 @@
+/* src/components/Header.css */
+.header {
+    background-color: #006666;
+    /* Use the background color from the screenshot */
+    color: white;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__titles h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.header__titles p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
+}
+
+.header__link {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.header__icon {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
